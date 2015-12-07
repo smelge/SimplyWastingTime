@@ -1,0 +1,433 @@
+/*
+Colours and Fonts
+
+Content: #cccccc;
+
+Headlines:  font-family: 'Roboto', sans-serif;
+Body Text: font-family: 'Droid Sans', sans-serif;
+  
+*/
+
+
+body {
+	background: #9966cc /*663366url('../assets/backgroundimage.jpg')*/;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+.centre {
+	text-align:center;
+}
+
+#main-container {
+	margin:0 auto;
+	max-width:1200px;
+	background: rgb(23,13,24);
+	background: -moz-linear-gradient(top, rgba(23,13,24,1) 0%, rgba(105,44,165,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(23,13,24,1)), color-stop(100%,rgba(105,44,165,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(23,13,24,1) 0%,rgba(105,44,165,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(23,13,24,1) 0%,rgba(105,44,165,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(23,13,24,1) 0%,rgba(105,44,165,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(23,13,24,1) 0%,rgba(105,44,165,1) 100%); /* W3C */
+}
+
+.padding {
+	padding:0;
+}
+
+.pad {
+	padding: 0 15px;
+}
+
+.standard {
+	border:2px solid black;
+	background:#cccccc;
+}
+
+.social-media {
+	float:right;
+	margin:27px 5px 0 5px;
+}
+
+.newsfeed-item {
+	margin: 5px 0;
+	height:130px;
+}
+
+.newsfeed-item:hover {
+	background:#88a2a2;
+}
+
+#newsfeed-head {
+	padding:5px;
+	background: #cccccc;
+	border:2px solid black;
+}
+
+#navigation-bar {
+	border:2px solid black;
+	background:#cccccc;
+	font-family: 'Roboto', sans-serif;
+	font-weight:bold;
+	font-size:16px;
+	color: black;
+}
+
+#news-feed {
+	max-height:809px;
+	min-height:773px;
+	border:2px solid black;
+	background:#cccccc;
+	padding-bottom:5px;
+}
+
+#twitter-column {
+	height:905px;
+	border:2px solid black;
+	background:#cccccc;
+}
+
+#footer {	
+	background:#cccccc;
+	border:2px solid black;
+	border-radius:10px;
+	margin: 5px 0;
+	text-align:center;
+	padding:5px 10px;
+}
+
+#footer a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+}
+
+.infohead {
+	font-size:20px;
+	font-weight:bold;
+}
+
+.stripes {
+	height: 25px;
+	width: 100%;
+	border:2px solid black;
+	background: repeating-linear-gradient(
+	-45deg,
+	#000,
+	#000 20px,
+	#FFFF00 20px,
+	#FFFF00 40px
+	);
+}
+
+.watch-body {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	background:#cccccc;
+	padding:15px;
+}
+
+.watch-control {
+	font-size:16px;
+	font-weight:bold;
+	color:black;
+	text-align: center;
+	padding: 10px 2px;
+	/*min-width:150px;*/
+}
+
+.unclick{
+	font-size:16px;
+	font-weight:italic;
+	color:#666666;
+	text-align: center;
+	padding: 10px;
+	cursor:default;
+}
+
+.click:hover {
+	color: white;
+	background:#484848;
+}
+
+.arthead {
+	border:1px solid black;
+	margin: 5px;
+}
+
+.img-left {
+	margin:15px;
+	float:left;
+}
+
+.img-centre {
+	margin-bottom: 15px;
+	text-align:center;
+}
+
+.img-right {
+	margin:15px;
+	float:right;
+}
+
+.pre-auth {
+  display: none;
+}
+
+.post-auth {
+  display: none;
+}
+
+#yt-chart {
+  width: 500px;
+  height: 300px;
+  margin-bottom: 1em;
+}
+
+#yt-video-list {
+  padding-left: 1em;
+  list-style-type: none;
+}
+#yt-video-list > li {
+  cursor: pointer;
+}
+#yt-video-list > li:hover {
+  color: blue;
+}
+
+.plusvote {
+	color:#336633;
+}
+
+.plusvote:hover{
+	color:#00cc00;
+	text-decoration: none;
+}
+
+.minusvote {
+	color:#663333;
+}
+
+.minusvote:hover {
+	color:#cc0000;
+	text-decoration:none;
+}
+
+.voted {
+	cursor: default;
+}
+
+.linkover {
+	color: black;
+	background:#ccffff;
+}
+
+.linkover:hover {
+	text-decoration: none;
+	color: white;
+	background: #88a2a2;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	padding:5px 10px;
+	text-align:center;
+}
+
+.tagline {
+	color: white;
+	padding: 0px 5px 5px 20px;
+	margin-left:-5px;
+	font-weight:bold;
+	font-size:10px;
+}
+
+.watchtitle {
+	font-family: 'Roboto', sans-serif;
+	font-weight:bold;
+	font-size:20px;
+}
+
+.watchtitle hr{
+	margin: 0px;
+	width: 25%;
+	border:1px solid black;
+}
+
+.facebook {
+	border:2px solid black;
+	background:#cccccc;
+	padding:10px;
+	overflow:hidden;
+}
+
+.fb-like {
+	width:100%;
+}
+
+.yt-stat {
+	display: inline-block;
+	margin-right:20px;
+	font-size:18px;
+	color:black;
+}
+
+.socmed-bar {
+	background:#cccccc;
+	border:2px solid black;
+}
+
+.socmed-bar i {
+	margin:5px;
+	color:#000000;	
+}
+
+.socmed-bar i:hover {
+	color:#ffffff;
+}
+
+.stream {
+	border:2px solid black;
+	padding:0;
+	height:504px;
+}
+
+.playlist-item {	
+	border-bottom:1px solid black;
+	padding:0;
+}
+
+.playlist-title {
+	font-weight:bold;
+	text-align:center;
+	border-bottom:2px solid black;
+	padding:5px;
+	font-size:16px;
+	margin:0;
+}
+
+.playlist-body {
+	padding:10px;
+}
+
+.playlist-image img{
+	height:50px;
+	margin-left:-15px;
+	float:left;
+}
+
+.playlist-name {
+	height:50px;
+	text-align:center;
+	color:#000;
+	font-weight:bold;
+}
+
+.playlist-about {
+	padding:10px;
+	height:255px;
+	border-bottom:1px solid black;
+}
+
+.schedulebar {
+	background: green;
+	width:5px;
+	height:10px;
+	margin-right:1px;
+	display:inline-block;
+}
+
+.streamlist {
+	margin-bottom:10px;
+}
+
+.streamlist img {
+	border: 2px solid black;
+	border-bottom: 1px solid black;
+	border-top-right-radius: 20px;
+}
+
+.streamlist a {
+	color: black;
+}
+
+.streaminfo {
+	font-weight:bold;
+	text-align:center;
+	padding: 10px;
+	background:#cccccc;
+	border: 2px solid black;
+	border-top: 1px solid black;
+}
+
+.section-title {
+	font-weight:bold;
+	text-align:center;
+	border-bottom:2px solid black;
+	border-top:2px solid black;
+	padding:5px;
+	font-size:16px;
+	margin:0;
+	background:#ffffff;
+}
+
+.notice {
+	border: 2px solid black;
+	background:#cccccc;
+	padding:0;
+}
+
+.notice-head {
+	width:100%;
+	border-bottom:2px solid black;
+	background:#ffffff;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	padding:5px;
+}
+
+.notice-item {
+	padding:5px;
+	width:100%;
+	border-bottom:2px solid #666666;
+	font-size:12px;
+}
+
+.announcement-body {
+	overflow-y:auto;
+	height:250px;
+}
+
+.notice-body {
+	overflow-y:auto;
+	height:400px;
+}
+
+.stat-item {
+	height: 25px;
+	width:100%;
+	border-bottom:2px solid #000;
+	font-size:14px;
+}
+
+.stat-left {
+	line-height:25px;
+	border-right:2px solid #000;
+	font-size:14px;
+}
+
+.stat-right {
+	line-height:25px;
+	text-align:center;
+}
+
+.modal-trigger {
+	cursor:pointer;
+}

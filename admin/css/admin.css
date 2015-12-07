@@ -1,0 +1,58 @@
+/* Admin CSS */
+
+hr {
+	border:1px solid black;
+	margin:5px 0;
+	width:90%;
+}
+
+.notice {
+	border: 2px solid black;
+	background:#cccccc;
+	padding:0;
+}
+
+.notice-head {
+	width:100%;
+	border-bottom:2px solid black;
+	background:#ffffff;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	padding:5px;
+}
+
+.notice-item {
+	padding:5px;
+	width:100%;
+	border-bottom:2px solid #666666;
+	font-size:12px;
+}
+
+.announcement-body {
+	overflow-y:auto;
+	height:250px;
+}
+
+.notice-body {
+	overflow-y:auto;
+	height:400px;
+}
+
+.stat-item {
+	height: 25px;
+	width:100%;
+	border-bottom:2px solid #000;
+	font-size:14px;
+}
+
+.stat-left {
+	line-height:25px;
+	border-right:2px solid #000;
+	font-size:14px;
+}
+
+.stat-right {
+	line-height:25px;
+	text-align:center;
+}

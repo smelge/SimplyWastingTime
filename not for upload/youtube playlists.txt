@@ -1,0 +1,58 @@
+The Stream Array ( 
+	[kind] => youtube#playlistListResponse 
+	[etag] => "sGDdEsjSJ_SnACpEvVQ6MtTzkrI/trL17aJH5S0E4BOwasAmnB9LUJ0" 
+	[nextPageToken] => CAUQAA 
+	[pageInfo] => Array ( 
+		[totalResults] => 11 
+		[resultsPerPage] => 5 
+	) 
+	[items] => Array ( 
+		[0] => Array ( 
+			[kind] => youtube#playlist 
+			[etag] => "sGDdEsjSJ_SnACpEvVQ6MtTzkrI/5kHBuZlTRN_7pnc2q0NEHh0LOLY" 
+			[id] => PLZ2BrUrEAHJ7CZBxQEAG92J6Nm8T6p3b3 
+			[snippet] => Array ( 
+				[publishedAt] => 2015-07-21T09:18:47.000Z 
+				[channelId] => UC2k_Xs19UVJ8SyItIZkY0wA 
+				[title] => Gmod PropHunt 
+				[description] => 
+				[thumbnails] => Array ( 
+					[default] => Array ( 
+						[url] => https://i.ytimg.com/vi/1rCktPp9dSU/default.jpg 
+						[width] => 120 
+						[height] => 90 
+					) 
+					[medium] => Array ( 
+						[url] => https://i.ytimg.com/vi/1rCktPp9dSU/mqdefault.jpg 
+						[width] => 320 
+						[height] => 180 
+					) 
+					[high] => Array ( 
+						[url] => https://i.ytimg.com/vi/1rCktPp9dSU/hqdefault.jpg 
+						[width] => 480 
+						[height] => 360 
+					) 
+					[standard] => Array ( 
+						[url] => https://i.ytimg.com/vi/1rCktPp9dSU/sddefault.jpg 
+						[width] => 640 
+						[height] => 480 
+					) 
+					[maxres] => Array ( 
+						[url] => https://i.ytimg.com/vi/1rCktPp9dSU/maxresdefault.jpg 
+						[width] => 1280 
+						[height] => 720 
+					) 
+				) 
+				[channelTitle] => SimplyWastingTime 
+				[localized] => Array ( 
+					[title] => Gmod PropHunt 
+					[description] => 
+				) 
+			) 
+		) 
+		[1] => Array ( 
+			[kind] => youtube#playlist 
+			[etag] => "sGDdEsjSJ_SnACpEvVQ6MtTzkrI/vztb2kBR2Xrp2NqiTn2noA_1LCk" 
+			[id] => PLZ2BrUrEAHJ6RwwJsLbMUABf7oKvrW-JG 
+			[snippet] => Array ( 
+				[publishedAt] => 2015-06-09T14:12:14.000Z [channelId] => UC2k_Xs19UVJ8SyItIZkY0wA [title] => Legendary LP [description] => [thumbnails] => Array ( [default] => Array ( [url] => https://i.ytimg.com/vi/Lju1kzoQPg4/default.jpg [width] => 120 [height] => 90 ) [medium] => Array ( [url] => https://i.ytimg.com/vi/Lju1kzoQPg4/mqdefault.jpg [width] => 320 [height] => 180 ) [high] => Array ( [url] => https://i.ytimg.com/vi/Lju1kzoQPg4/hqdefault.jpg [width] => 480 [height] => 360 ) [standard] => Array ( [url] => https://i.ytimg.com/vi/Lju1kzoQPg4/sddefault.jpg [width] => 640 [height] => 480 ) [maxres] => Array ( [url] => https://i.ytimg.com/vi/Lju1kzoQPg4/maxresdefault.jpg [width] => 1280 [height] => 720 ) ) [channelTitle] => SimplyWastingTime [localized] => Array ( [title] => Legendary LP [description] => ) ) ) [2] => Array ( [kind] => youtube#playlist [etag] => "sGDdEsjSJ_SnACpEvVQ6MtTzkrI/MVLQ9jXvgIEDQv7zwtYJfK_rd1g" [id] => PLZ2BrUrEAHJ4kBpZKZrZTX824irVV7W-0 [snippet] => Array ( [publishedAt] => 2015-05-24T16:23:28.000Z [channelId] => UC2k_Xs19UVJ8SyItIZkY0wA [title] => Atom Zombie Smasher LP [description] => [thumbnails] => Array ( [default] => Array ( [url] => https://i.ytimg.com/vi/qNpBHwEszcg/default.jpg [width] => 120 [height] => 90 ) [medium] => Array ( [url] => https://i.ytimg.com/vi/qNpBHwEszcg/mqdefault.jpg [width] => 320 [height] => 180 ) [high] => Array ( [url] => https://i.ytimg.com/vi/qNpBHwEszcg/hqdefault.jpg [width] => 480 [height] => 360 ) [standard] => Array ( [url] => https://i.ytimg.com/vi/qNpBHwEszcg/sddefault.jpg [width] => 640 [height] => 480 ) [maxres] => Array ( [url] => https://i.ytimg.com/vi/qNpBHwEszcg/maxresdefault.jpg [width] => 1280 [height] => 720 ) ) [channelTitle] => SimplyWastingTime [localized] => Array ( [title] => Atom Zombie Smasher LP [description] => ) ) ) [3] => Array ( [kind] => youtube#playlist [etag] => "sGDdEsjSJ_SnACpEvVQ6MtTzkrI/If-qV6UW2FtnPhH-QEeULFSBy-4" [id] => PLZ2BrUrEAHJ4XRH-hRM7nYi0Xq6gLBr46 [snippet] => Array ( [publishedAt] => 2015-05-02T20:18:17.000Z [channelId] => UC2k_Xs19UVJ8SyItIZkY0wA [title] => Viscera Cleanup Detail [description] => Alex, Iain, Lex and Tavy are hired to clean up a station after some unspecified incident occurred. Thing is, do any of them know how to clean? [thumbnails] => Array ( [default] => Array ( [url] => https://i.ytimg.com/vi/JEyDI-RSz-s/default.jpg [width] => 120 [height] => 90 ) [medium] => Array ( [url] => https://i.ytimg.com/vi/JEyDI-RSz-s/mqdefault.jpg [width] => 320 [height] => 180 ) [high] => Array ( [url] => https://i.ytimg.com/vi/JEyDI-RSz-s/hqdefault.jpg [width] => 480 [height] => 360 ) [standard] => Array ( [url] => https://i.ytimg.com/vi/JEyDI-RSz-s/sddefault.jpg [width] => 640 [height] => 480 ) [maxres] => Array ( [url] => https://i.ytimg.com/vi/JEyDI-RSz-s/maxresdefault.jpg [width] => 1280 [height] => 720 ) ) [channelTitle] => SimplyWastingTime [localized] => Array ( [title] => Viscera Cleanup Detail [description] => Alex, Iain, Lex and Tavy are hired to clean up a station after some unspecified incident occurred. Thing is, do any of them know how to clean? ) ) ) [4] => Array ( [kind] => youtube#playlist [etag] => "sGDdEsjSJ_SnACpEvVQ6MtTzkrI/hFn-fgPj9AHN_c0shF7ERlWNvBo" [id] => PLZ2BrUrEAHJ6a-bu0xNoPkRtIATy_Xe6W [snippet] => Array ( [publishedAt] => 2015-04-21T05:47:17.000Z [channelId] => UC2k_Xs19UVJ8SyItIZkY0wA [title] => Study into the Let's Play Subculture [description] => A short series looking into the Let's Play subculture covering topics such as demographics and popular video formats. [thumbnails] => Array ( [default] => Array ( [url] => https://i.ytimg.com/vi/LVr8J9w0etE/default.jpg [width] => 120 [height] => 90 ) [medium] => Array ( [url] => https://i.ytimg.com/vi/LVr8J9w0etE/mqdefault.jpg [width] => 320 [height] => 180 ) [high] => Array ( [url] => https://i.ytimg.com/vi/LVr8J9w0etE/hqdefault.jpg [width] => 480 [height] => 360 ) [standard] => Array ( [url] => https://i.ytimg.com/vi/LVr8J9w0etE/sddefault.jpg [width] => 640 [height] => 480 ) [maxres] => Array ( [url] => https://i.ytimg.com/vi/LVr8J9w0etE/maxresdefault.jpg [width] => 1280 [height] => 720 ) ) [channelTitle] => SimplyWastingTime [localized] => Array ( [title] => Study into the Let's Play Subculture [description] => A short series looking into the Let's Play subculture covering topics such as demographics and popular video formats. ) ) ) ) ) 

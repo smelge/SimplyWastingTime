@@ -1,0 +1,71 @@
+Array ( 
+	[kind] => youtube#videoListResponse 
+	[etag] => "oyKLwABI4napfYXnGO8jtXfIsfc/0yx_RvPF2MTsmMo349CzkqUpe4M" 
+	[pageInfo] => Array ( 
+		[totalResults] => 1 
+		[resultsPerPage] => 1 
+	) 
+	[items] => Array ( 
+		[0] => Array ( 
+			[kind] => youtube#video 
+			[etag] => "oyKLwABI4napfYXnGO8jtXfIsfc/UYDrdRnFk0keiCOfhOvrmF-dlD4" 
+			[id] => XVceHzeVk24 
+			[snippet] => Array ( 
+				[publishedAt] => 2015-09-17T17:00:01.000Z 
+				[channelId] => UC2k_Xs19UVJ8SyItIZkY0wA 
+				[title] => Best of - The cutting room floor #1 
+				[description] => From the cutting room floor to your visual orifices. Here are some of the best clips that we kept that haven't been used. With clips from games such as: Grand Theft Auto 4 Grand Theft Auto 5 Damned Double Action Boogaloo Worms Revolution Gmod - Murder Song: Skyberyl - Animate: https://youtu.be/4v8zfuv3Xt8 Intro voice of sexiness: Videogre - https://www.youtube.com/channel/UCI3aprC9yhzhDkk3D7Bdg_Q ================ For more, join us on our website or some of our social media sites! Website: http://www.simplywastingtime.com Twitch: http://www.twitch.tv/simplywastingtime Facebook: http://www.facebook.com/simplywastingtime Twitter: http://www.twitter.com/simplywt Steam: http://steamcommunity.com/groups/simplywastingtime 
+				[thumbnails] => Array ( 
+					[default] => Array ( 
+						[url] => https://i.ytimg.com/vi/XVceHzeVk24/default.jpg 
+						[width] => 120 
+						[height] => 90 
+					) 
+					[medium] => Array ( 
+						[url] => https://i.ytimg.com/vi/XVceHzeVk24/mqdefault.jpg 
+						[width] => 320 
+						[height] => 180 
+					) 
+					[high] => Array ( 
+						[url] => https://i.ytimg.com/vi/XVceHzeVk24/hqdefault.jpg 
+						[width] => 480 
+						[height] => 360 
+					) 
+					[standard] => Array ( 
+						[url] => https://i.ytimg.com/vi/XVceHzeVk24/sddefault.jpg 
+						[width] => 640 
+						[height] => 480 
+					) 
+					[maxres] => Array ( 
+						[url] => https://i.ytimg.com/vi/XVceHzeVk24/maxresdefault.jpg 
+						[width] => 1280 
+						[height] => 720 
+					) 
+				) 
+				[channelTitle] => SimplyWastingTime 
+				[tags] => Array ( 
+					[0] => simplywastingtime 
+					[1] => swt 
+					[2] => cutting room floor 
+					[3] => funny montage 
+					[4] => pc 720p 
+					[5] => doubleaction boogaloo 
+					[6] => gmod murder 
+					[7] => murder funny clips 
+					[8] => gta4 
+					[9] => worms revolution 
+					[10] => damned 
+					[11] => damned gameplay 
+					[12] => Garry's Mod (Video Game Mod) 
+					[13] => Montage (Film Genre) 
+				) 
+				[categoryId] => 20 
+				[liveBroadcastContent] => none 
+				[localized] => Array ( 
+					[title] => Best of - The cutting room floor #1 
+					[description] => From the cutting room floor to your visual orifices. Here are some of the best clips that we kept that haven't been used. With clips from games such as: Grand Theft Auto 4 Grand Theft Auto 5 Damned Double Action Boogaloo Worms Revolution Gmod - Murder Song: Skyberyl - Animate: https://youtu.be/4v8zfuv3Xt8 Intro voice of sexiness: Videogre - https://www.youtube.com/channel/UCI3aprC9yhzhDkk3D7Bdg_Q ================ For more, join us on our website or some of our social media sites! Website: http://www.simplywastingtime.com Twitch: http://www.twitch.tv/simplywastingtime Facebook: http://www.facebook.com/simplywastingtime Twitter: http://www.twitter.com/simplywt Steam: http://steamcommunity.com/groups/simplywastingtime 
+				) 
+			) 
+		) 
+	) 
+) 

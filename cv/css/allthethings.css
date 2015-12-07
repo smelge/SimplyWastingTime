@@ -1,0 +1,197 @@
+/* DO ALL THE CSS */
+ 
+body {
+	background:#cccccc;
+}
+
+.padding {
+	padding:0;
+}
+
+.row {
+	display:flex;
+}
+
+.head {
+	height:40px;
+	line-height:40px;
+	background: #99ccff;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight:bold;
+	padding:0 30px;
+}
+
+.headright{
+	height:40px;
+	background: #99ccff;
+	border-top:1px solid black;
+	border-right:1px solid black;
+	border-top-right-radius: 20px;
+}
+
+.hook{
+	height:30px;
+	background: #99ccff;
+	border-right:1px solid black;
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+	border-bottom-right-radius: 20px;
+}
+ 
+.lefthead{
+	background:#99ccff;
+	height:40px;
+}
+ 
+.leftcontent{
+	background:#99ccff;
+	border-right:1px solid black;
+}
+ 
+.content {
+	background: #cccccc;
+	padding:15px;
+	height: auto;
+}
+
+#annoyingthing {
+	background:#99ccff;
+	text-align: center;
+	width: 60%;
+	padding: 10px;
+	border:2px solid black;
+	border-radius:10px;
+	z-index:99;
+	position:fixed;
+	margin:60% 20% 0 20%;	
+}
+
+.stop-annoyance {
+	float:right;
+	margin-top:4px;
+	cursor:pointer;
+}
+
+.shadow {
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.27);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.27);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.27);
+}
+
+.leftfooter {
+	background:#99ccff;
+	height:40px;
+	border-bottom:1px solid black;
+}
+
+.footerhook {
+	height:40px;
+	background: #99ccff;
+	border-bottom:1px solid black;
+	border-right:1px solid black;
+	border-top:1px solid black;
+	border-top-right-radius: 20px;
+}
+
+.blueback {
+	background:#99ccff;
+}
+
+.ex-pad {
+	padding: 0 30px;
+}
+
+.site-gallery {
+	width: 31%;
+	margin: 1%;
+	height:auto;
+	border: 1px solid black;
+	display:inline-block;
+}
+
+.example-site {
+	border: 1px solid black;
+}
+
+.example-site:hover {
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.27);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.27);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.27);
+	cursor:pointer;
+}
+
+.widget-gallery {
+	margin: 1%;
+	height:auto;
+	border: 1px solid black;
+	display:inline-block;
+}
+
+.weather-head {
+	font: normal bold 18px/1em Arial, Verdana, Helvetica;
+}
+
+.weather-modal a{
+	color:black;
+	text-decoration:none;
+}
+
+.weather-modal a:hover {
+	cursor:pointer;
+}
+
+.weather-block {
+	border:1px solid black;
+	background:#cebd95;
+	height:100%;
+	text-align:center;
+	min-width:100px;
+}
+
+.weather-block img{
+	text-align:center;
+	margin: 0 auto;
+}
+
+.weather-block:hover {
+	background:#999966;
+	color: white;
+}
+
+.weatherlink {
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+tr img {
+	margin:0 auto;
+}
+
+hr {
+	border:1px solid black;
+	width:90%;
+	margin: 10px;
+}
+
+.demo {
+	text-align:center;
+}
+
+.demo a {
+	margin: 0 auto;
+}
+
+.demo a img {
+	border:2px solid black;	
+	border-radius:20px;
+}
+
+.header {
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	background: #ffffff;
+}

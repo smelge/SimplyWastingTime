@@ -1,0 +1,30 @@
+<?php
+	echo '<div class="col-sm-12 standard">';
+		echo '<form role="form" name="img_upload" enctype="multipart/form-data" action="./includes/img_upload.php" method="post" target="blank" onsubmit="this.submit(); this.reset(); return false;">';
+			echo '<div class="form-group">';
+				echo '<input type="file" style="float:left;" name="newimage"><br>';
+				echo '<input type="text" class="form-control" maxlength="100" required name="imgalt" placeholder="Alt-text (100 characters max)">';
+				echo '<input type="text" class="form-control" required name="imgtags" placeholder="Tags (e.g. Minecraft game creeper explosion)">';
+			echo '</div>';
+			echo '<div class="form-group">';
+				echo '<input type="hidden" name="user_id" value="'.$context['user']['id'].'">';
+				echo '<input type="hidden" name="user_name" value="'.$context['user']['name'].'">';
+				echo 'Select a Category:';   
+				echo '<select name="img_category">';
+					echo '<option value="none">Uncategorised</option>';
+					echo '<option value="thumbnail">Thumbnail</option>';
+					echo '<option value="game">Game</option>';
+					echo '<option value="tutorial">Tutorial</option>';
+					echo '<option value="screenshot">Screenshot</option>';
+					echo '<option value="photo">Photo</option>';
+					echo '<option value="infographic">Infographic</option>';
+					echo '<option value="comic">Comic</option>';
+				echo '</select>';
+			echo '</div>';
+			echo '<div class="form-group btn-group">';				
+				echo '<button type="submit" class="btn btn-success" style="width: 150px;">Submit</button>';
+				echo '<button type="reset" class="btn btn-danger">Reset</button>';
+			echo '</div>';
+		echo '</form>';
+	echo '</div>';
+?>
